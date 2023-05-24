@@ -1,0 +1,35 @@
+﻿@TestEndPointAPI_HostAddress = https://localhost:7241
+
+GET {{TestEndPointAPI_HostAddress}}/weatherforecast
+
+###
+
+GET {{TestEndPointAPI_HostAddress}}/api/students
+
+###
+
+GET {{TestEndPointAPI_HostAddress}}/api/students
+
+###
+
+GET {{TestEndPointAPI_HostAddress}}/api/students
+
+###
+
+GET {{TestEndPointAPI_HostAddress}}/api/students/1
+
+###
+
+POST {{TestEndPointAPI_HostAddress}}/api/students
+Content-Type: application/json
+
+{
+  "name": "John",
+  "email": "guy@gmail.com"
+}
+
+###
+
+GET {{TestEndPointAPI_HostAddress}}/api/students
+
+###
